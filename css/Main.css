@@ -6,7 +6,7 @@
 
 }
 body{
-    background-image: url(fundo.jpg);
+    background-image: url(css/Fundo.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
