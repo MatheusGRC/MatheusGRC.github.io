@@ -72,7 +72,7 @@ body{
 }
 .conteudo {
     width: 70%;
-    height: 700px;
+    height: flex;
     display: block;
     margin: 60px auto;
     background-color: rgb(238, 243, 212);
