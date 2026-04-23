@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar,
+footer {
+    background: #030d0e;
+}
+
+.navbar .nav-link {
+    position: relative;
+    color: white;
+}
+
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #a8e6cf;
+    transition: width 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #a8e6cf;
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar .container {
+    max-width: 100%;
+    padding-left: 30px;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(15, 61, 62, 0.8), rgba(0, 0, 0, 0.6)),
+        url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bg-soft {
+    background: #f4f7f6;
+}
+
+.card-custom {
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+footer,
+footer a,
+footer span {
+    color: white;
+}
+
+.source-link {
+    color: #d1f0e8;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
